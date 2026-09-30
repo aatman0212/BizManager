@@ -1,0 +1,24 @@
+{
+  "name": "bizmanager",
+  "version": "1.0.0",
+  "description": "BizManager - Complete Business Management System (Customers, Stock, POS Billing, 1-Click SMS, PDF Invoices)",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "test": "node backend/test_api.js",
+    "build": "cd frontend && npm run build",
+    "dev": "cd frontend && npm run dev",
+    "dev:backend": "cd backend && npm run dev"
+  },
+  "keywords": [
+    "bizmanager",
+    "pos",
+    "billing",
+    "inventory",
+    "crm",
+    "sms",
+    "pdf-invoices"
+  ],
+  "author": "",
+  "license": "ISC"
+}
